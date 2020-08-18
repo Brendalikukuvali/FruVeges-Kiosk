@@ -1,0 +1,52 @@
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  padding: 4%;
+  flex: 1 12%;
+}
+
+.product-info {
+  margin-top: auto;
+}
+
+.add-to-cart-btn {
+  background: #d9ff00;
+  border: none;
+}
+
+.photo {
+  height: 20vh;
+  width: 20vh;
+}
+
+header{
+  background-color: #333;
+  }
+  header nav{
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+  header nav ul{
+  padding: 0;
+  margin:0;
+  overflow: auto;
+  }
+  header nav ul li{
+  list-style: none;
+  float:right;
+
+  }
+  header nav ul li a{
+  color: #ccc;
+  padding: 20px;
+  float:left;
+  font-size: 14px;
+  text-decoration: none;
+  }
+  header nav ul li a:hover{
+  color: cyan;
+  }
